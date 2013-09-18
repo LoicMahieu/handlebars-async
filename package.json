@@ -1,0 +1,34 @@
+{
+  "name": "handlebars-async",
+  "version": "0.0.1",
+  "description": "Make Handlebars async",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "handlebars": "~1.0.12",
+    "chai": "~1.8.0",
+    "mocha": "~1.13.0",
+    "jshint": "~2.1.10"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/LoicMahieu/handlebars-async"
+  },
+  "keywords": [
+    "handlebars",
+    "async"
+  ],
+  "author": "Loïc Mahieu",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/LoicMahieu/handlebars-async/issues"
+  }
+}
