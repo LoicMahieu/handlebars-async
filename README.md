@@ -1,5 +1,7 @@
 # Handlebars-Async
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LoicMahieu/handlebars-async.svg)](https://greenkeeper.io/)
+
 Make Handlebars async!
 
 ## Install
