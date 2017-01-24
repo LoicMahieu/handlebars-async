@@ -10,11 +10,11 @@
     "node-uuid": "~1.4.1"
   },
   "devDependencies": {
-    "handlebars": "~1.0.12",
-    "chai": "~1.8.0",
-    "mocha": "~1.13.0",
-    "jshint": "~2.1.10",
-    "semver": "~2.1.0"
+    "handlebars": "~4.0.6",
+    "chai": "~3.5.0",
+    "mocha": "~3.2.0",
+    "jshint": "~2.9.4",
+    "semver": "~5.3.0"
   },
   "scripts": {
     "test": "make test"
