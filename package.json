@@ -7,14 +7,14 @@
     "test": "test"
   },
   "dependencies": {
-    "node-uuid": "~1.4.1"
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "handlebars": "~1.0.12",
-    "chai": "~1.8.0",
-    "mocha": "~1.13.0",
-    "jshint": "~2.1.10",
-    "semver": "~2.1.0"
+    "chai": "^4.1.2",
+    "handlebars": "^2.0.0",
+    "jshint": "^2.9.5",
+    "mocha": "^4.1.0",
+    "semver": "^5.4.1"
   },
   "scripts": {
     "test": "make test"
