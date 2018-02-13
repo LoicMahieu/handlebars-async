@@ -1,0 +1,17 @@
+
+{{> "partials/partial1"}}
+{{> "partials/partial2"}}
+{{> "partials/partial3"}}
+
+Hey!
+
+{{asyncHelper1 arg1 arg2=arg2}}
+{{asyncHelper2 arg3 arg2=arg4}}
+{{asyncHelper4 arg3 arg2=arg4}}
+{{classicHelper arg4 arg2=arg5}}
+
+{{#classicHelper2 'yes'}}Yes!{{newContext}}{{else}}No!{{/classicHelper2}}
+
+{{#classicHelper2 'no'}}Yes!{{newContext}}{{else}}No!{{/classicHelper2}}
+
+{{#classicHelper2 'yes'}}{{asyncHelper1 newContext}}{{/classicHelper2}}
